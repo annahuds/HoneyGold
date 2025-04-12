@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HoneyGold Bakery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Animate.css for animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- FontAwesome for Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">HoneyGold</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">Our Story</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Visit Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-light text-center py-5 animate__animated animate__fadeIn">
+    <div class="container">
+      <h1 class="display-4">Baked Fresh Daily</h1>
+      <p class="lead">Delicious pastries, breads, and sweet treats from our oven to your heart.</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4">
+          <img src="https://i.pinimg.com/originals/33/ab/b3/33abb372c89bcc3cbe3eec401f853893.jpg" class="img-fluid rounded" alt="Bakery interior">
+        </div>
+        <div class="col-md-6">
+          <h2>Our Story</h2>
+          <p>Founded in 2020, HoneyGold is a family-owned bakery in the heart of the city. We’re passionate about hand-crafted baked goods made with love, tradition, and the freshest ingredients.</p>
+          <p>From flaky croissants to gooey cinnamon rolls, every bite is a celebration.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="mb-4">Our Menu</h2>
+      <div class="row g-4">
+        <!-- Nested grid layout inside columns -->
+        <div class="col-md-4">
+          <h3>Cakes</h3>
+          <div class="row">
+            <div class="col-6">
+              <div class="card h-100 border border-primary rounded shadow-lg">
+                <img src="https://i.pinimg.com/originals/0f/8f/d6/0f8fd6951a76e02ff4f68f3a075577e0.jpg" class="card-img-top" alt="Chocolate Cake">
+                <div class="card-body">
+                  <h5 class="card-title text-success">Chocolate Cake</h5>
+                  <p class="card-text">Rich, velvety chocolate cake filled with layers of cream.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card h-100 border border-primary rounded shadow-lg">
+                <img src="https://www.thekitchn.com/wp-content/uploads/2017/12/make-cake-in-9x13-pan-hero-1080x675.jpg" class="card-img-top" alt="Vanilla Cake">
+                <div class="card-body">
+                  <h5 class="card-title text-success">Vanilla Cake</h5>
+                  <p class="card-text">Light, fluffy vanilla cake topped with creamy icing.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h3>Pastries</h3>
+          <div class="row">
+            <div class="col-6">
+              <div class="card h-100 border border-primary rounded shadow-lg">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Apple_Pie_Slice.jpg" class="card-img-top" alt="Apple Pie">
+                <div class="card-body">
+                  <h5 class="card-title text-success">Apple Pie</h5>
+                  <p class="card-text">Freshly baked with a buttery crust and sweet apple filling.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card h-100 border border-primary rounded shadow-lg">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Chocolate_croissant.jpg" class="card-img-top" alt="Croissant">
+                <div class="card-body">
+                  <h5 class="card-title text-success">Croissant</h5>
+                  <p class="card-text">Flaky, buttery croissants that melt in your mouth.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h3>Breads</h3>
+          <div class="row">
+            <div class="col-6">
+              <div class="card h-100 border border-primary rounded shadow-lg">
+                <img src="https://www.kingarthurbaking.com/sites/default/files/styles/large/public/2018-10/1000-crumb-hero-1024x682.jpg" class="card-img-top" alt="Sourdough Bread">
+                <div class="card-body">
+                  <h5 class="card-title text-success">Sourdough</h5>
+                  <p class="card-text">Tangy and crusty with a soft, chewy interior.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card h-100 border border-primary rounded shadow-lg">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Baguette_Parisienne.jpg" class="card-img-top" alt="Baguette">
+                <div class="card-body">
+                  <h5 class="card-title text-success">Baguette</h5>
+                  <p class="card-text">Classic French baguette with a crispy crust and light interior.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal (Example for Contact Us) -->
+  <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#contactModal">
+    Contact Us
+  </button>
+
+  <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="contactModalLabel">Get In Touch</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Your Email">
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Visit Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Anna Hudson">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Tell us what you’re craving..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning w-100">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-warning text-dark text-center py-3">
+    <div class="container">
+      &copy; 2025 HoneyGold • Open 7 days a week • Made with ♥
+      <div class="social-icons mt-3">
+        <a href="#" class="btn btn-light"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="btn btn-light"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
